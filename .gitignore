@@ -9,3 +9,12 @@ data/*
 # Don't upload transformer checkpoints (huge)
 model_weights/distilbert_from_pretrained/
 "@ | Add-Content .gitignore
+
+@"
+# virtual env
+rnn_env/
+
+# archives
+*.zip
+archive*/
+"@ | Add-Content .gitignore
