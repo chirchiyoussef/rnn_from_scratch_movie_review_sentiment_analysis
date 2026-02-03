@@ -1,0 +1,11 @@
+@"
+# Jupyter
+**/.ipynb_checkpoints/
+
+# Dataset (keep folder only)
+data/*
+!data/.gitkeep
+
+# Don't upload transformer checkpoints (huge)
+model_weights/distilbert_from_pretrained/
+"@ | Add-Content .gitignore
